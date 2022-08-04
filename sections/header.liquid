@@ -702,12 +702,9 @@
     "@context": "http://schema.org",
     "@type": "Organization",
     "name": {{ shop.name | json }},
-    <a href="{{ routes.root_url }}" class="site-header__logo-image{% if section.settings.align_logo == 'center' %} site-header__logo-image--centered{% endif %}">
-  {% capture image_size %}{{ section.settings.logo_max_width | escape }}{% endcapture %}
-  <img src="{{ 'logo.svg' | asset_url }}" 
-       alt="{{ shop.name }}"
-       style="max-width: {{ image_size }}px;">
-</a>
+    {% if section.settings.logo %}
+      "logo": {{ section.settings.logo | image_url: width: section.settings.logo.width | prepend: "https:" | json }},
+    {% endif %}
     "sameAs": [
       {{ settings.social_twitter_link | json }},
       {{ settings.social_facebook_link | json }},
