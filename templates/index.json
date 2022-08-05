@@ -1,16 +1,22 @@
 {
   "sections": {
-    "1659707817545d3c3a": {
-      "type": "custom-liquid",
+    "16597180973f4f17e9": {
+      "type": "image-banner",
       "settings": {
-        "custom_liquid": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
-    "1659707817545d3c3a"
+    "16597180973f4f17e9"
   ]
 }
