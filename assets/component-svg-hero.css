@@ -1,0 +1,11 @@
+.wrap-layer{
+    position: relative;
+ }
+ .text-layer{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    /* non-critical styles left out */
+ }
