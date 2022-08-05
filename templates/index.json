@@ -1,17 +1,16 @@
 {
   "sections": {
-    "1659719355f6a9abd8": {
-      "type": "page",
+    "1659720157051b9acb": {
+      "type": "custom-liquid",
       "settings": {
-        "page": "",
-        "background_image": "mainpage.svg",
+        "custom_liquid": "",
         "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
-    "1659719355f6a9abd8"
+    "1659720157051b9acb"
   ]
 }
