@@ -13,14 +13,10 @@
   </div>
 </div>
 
-{%- if section.settings.image == blank -%}
-<div class="placeholder-background">
-  {{ "mainpage.svg" }}
-</div>
 {%- endif -%}
-<div class="hero__inner">
-  <div class="page-width text-center">
 
+
+{% include 'mainbgsvg' %}
 {% schema %}
 {
   "name": "t:sections.custom-liquid.name",
