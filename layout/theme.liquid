@@ -271,10 +271,16 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    {% unless template contains 'index' %}
-    {% section 'header' %}
-    {% section 'footer' %}
-    {% endunless %}
+    {% if template contains 'index' %}
+    <style>
+      sticky-header {
+      	display: none !important;
+      }
+      footer {
+      	display: none !important;
+      }
+    </style>
+    {% endif %}
     
   </body>
 </html>
