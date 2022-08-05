@@ -4,7 +4,7 @@
       "type": "page",
       "settings": {
         "page": "",
-        "content_for_index":"mainpage.svg",
+        "background_image": "mainpage.svg",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
