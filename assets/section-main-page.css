@@ -15,6 +15,7 @@
 .page-placeholder-wrapper {
   display: flex;
   justify-content: center;
+  background-image: 'mainpage.svg';
 }
 
 .page-placeholder {
