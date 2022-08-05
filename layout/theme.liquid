@@ -270,5 +270,14 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {% if template contains 'index' %}
+    <style>
+      h1.header__heading {
+      	display: none !important;
+      }
+    </style>
+    {% endif %}
+    
   </body>
 </html>
