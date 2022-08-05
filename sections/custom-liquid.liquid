@@ -12,7 +12,8 @@
     {{ section.settings.custom_liquid }}
   </div>
 </div>
-{{'mainpage.svg' | asset_url }}
+
+{% render 'mainpage.svg' %}
 
 {% schema %}
 {
