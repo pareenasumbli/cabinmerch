@@ -109,9 +109,9 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/a-close-up-of-black-microphone.jpg",
+          "logo": "logo.svg",
           "logo_width": 120,
-          "logo_position": "top-center",
+          "logo_position": "center",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
