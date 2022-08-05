@@ -273,6 +273,12 @@
 
     {% if template contains 'index' %}
     <style>
+      content-for-layout {
+      background-image: url('{{ mainpage.svg | asset_url }}');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+}
       sticky-header {
       	display: none !important;
       }
