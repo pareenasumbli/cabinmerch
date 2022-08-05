@@ -4,7 +4,7 @@
       "type": "page",
       "settings": {
         "page": "",
-        "heading_size": "h1",
+        "content_for_index":"mainpage.svg",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
