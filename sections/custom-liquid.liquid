@@ -15,7 +15,9 @@
 
 {%- endif -%}
 
-{{"mainpage.svg" | asset_url}}
+{{"mainpage.svg" | asset_url | img_tag}}
+
+{%- if section.settings.custom_liquid -%}
 
 
 {%- section "mainpage" -%}
