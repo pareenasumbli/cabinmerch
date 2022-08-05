@@ -13,7 +13,11 @@
   </div>
 </div>
 
-{{ 'mainbg.liquid' | asset_url }}
+<div class = "maincontainer">
+  <object data="{{ 'mainpage.svg' | file_url }}" type="image/svg+xml">
+    <img src="{{ 'mainpage.svg' | file_url }}" />
+  </object>
+  </div>
 
 {% schema %}
 {
