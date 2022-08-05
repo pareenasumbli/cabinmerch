@@ -1,0 +1,16 @@
+{
+    "sections": {
+      "1659707817545d3c3a": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "",
+          "color_scheme": "background-1",
+          "background_image": "mainpage.svg"
+        }
+      }
+    },
+    "order": [
+      "1659707817545d3c3a"
+    ]
+  }
+  
