@@ -1,16 +1,12 @@
 {
   "sections": {
-    "1659743202b59006bb": {
-      "type": "custom-liquid",
+    "pagefly-home": {
+      "type": "pagefly-home",
       "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "1659743202b59006bb"
+    "pagefly-home"
   ]
 }
