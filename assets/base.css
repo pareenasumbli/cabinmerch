@@ -289,6 +289,11 @@ body,
   background-color: rgb(var(--color-background));
 }
 
+body {
+  border: #231010;
+  border-width: 2px;
+}
+
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
 }
