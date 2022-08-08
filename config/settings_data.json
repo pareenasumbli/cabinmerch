@@ -120,9 +120,8 @@
           "padding_top": 20,
           "padding_bottom": 20,
           "border": {
-            "thickness": 1,
-            "color": "#121212",
-            "opacity": 10
+            "thickness": 2,
+            "color": "#231010"
           }
         }
       },
